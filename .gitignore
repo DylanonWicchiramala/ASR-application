@@ -1,8 +1,6 @@
 pytorch_model.bin
-Application/.venv/*
-Application/__pycache__/*
-Application/asr/__pycache__/*
 Application/asr/wav2vec2-large-asr-th-2/*
 Application/asr/wav2vec2-large-asr-th-4-gram/*
-tools/__pycache__/*
-
+deprected/*
+__pycache__/
+.venv/

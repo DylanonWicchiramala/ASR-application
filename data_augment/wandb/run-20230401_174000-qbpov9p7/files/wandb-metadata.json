@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2023-04-01T10:40:02.857912",
+    "startedAt": "2023-04-01T10:40:00.508433",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/DylanonWicchiramala/ASR.git",
+        "commit": "2e9ac46a55a78c34cfabfe7875a96319ac687c35"
+    },
+    "email": "dylanonwic@gmail.com",
+    "root": "C:/Users/dylan/Desktop/ASR-project",
+    "host": "DESKTOP-5P8584L",
+    "username": "dylan",
+    "executable": "c:\\Users\\dylan\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3301.0,
+        "min": 0.0,
+        "max": 3301.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3301.0,
+            "min": 0.0,
+            "max": 3301.0
+        }
+    ],
+    "disk": {
+        "total": 930.6214027404785,
+        "used": 413.30364990234375
+    },
+    "gpu": "NVIDIA GeForce RTX 3080 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3080 Laptop GPU",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 23.406620025634766
+    }
+}
