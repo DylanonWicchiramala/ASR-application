@@ -1,0 +1,2 @@
+https://huggingface.co/DylanonWic/wav2vec2-large-asr-th-2
+https://huggingface.co/DylanonWic/wav2vec2-large-asr-th-4-gram
