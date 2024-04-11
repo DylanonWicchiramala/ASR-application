@@ -11,7 +11,7 @@ Thai
 ```
 git clone https://github.com/your-username/ASR.git](https://github.com/DylanonWicchiramala/ASR-application
 ```
-2. Run the application
+2. Run the application:
 ```
 python -m ./Application/main.py
 ```
