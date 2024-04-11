@@ -5,10 +5,11 @@ ASR(Automatic Speech Recognition Model) is a deep learning-based automatic speec
 Transcribe Language:
 Thai
 
-## Run web application
+## To run web application
 
 1. Clone this repository to your local machine:
 ```
+git clone https://github.com/your-username/ASR.git](https://github.com/DylanonWicchiramala/ASR-application
 python -m ./Application/main.py
 ```
 
