@@ -23,3 +23,7 @@ cd ./Application/;python -m main.py
 **or you can use the model directly from Hugging Face, using this link.
 https://huggingface.co/DylanonWic/wav2vec2-large-asr-th-2
 
+** Interface of web application
+![image](https://github.com/DylanonWicchiramala/ASR-application/assets/43574914/bc9db2ef-d9e7-431c-9731-c2fb1ab8c20c)
+
+
