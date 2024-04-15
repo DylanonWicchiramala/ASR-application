@@ -8,8 +8,6 @@ import param
 from tools import audio_process
 from torch import cuda
 
-MODEL_NAME = param.MODEL_NAME
-MODEL_PATH = param.MODEL_PATH
 __version__ = param.__version__
 model = None
 IS_MODEL_LOADED = False
@@ -20,16 +18,16 @@ def set_input_sampling_rate(sampling_rate):
     global INP_RATE
     INP_RATE = sampling_rate
 
-def load_model(model_path):
+def load_model(model_name):
     global model, IS_MODEL_LOADED
-    print('Loading model ', MODEL_NAME)
+    print('Loading model ', model_name)
     
     if cuda.is_available():
         device = 'cuda'
     else:
         device = 'cpu'     
     
-    model = pipeline(task="automatic-speech-recognition", model=model_path, device=device)
+    model = pipeline(task="automatic-speech-recognition", model=model_name, device=device)
     
     IS_MODEL_LOADED = True
 

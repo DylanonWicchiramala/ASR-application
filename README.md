@@ -11,9 +11,13 @@ Thai
 ```
 git clone https://github.com/DylanonWicchiramala/ASR-application
 ```
-2. Run the application:
+2. Install necessory module.
 ```
-python -m ./Application/main.py
+pip install -r requirements.txt
+```
+3. Run the application:
+```
+cd ./Application/;python -m main.py
 ```
 
 **or you can use the model directly from Hugging Face, using this link.

@@ -7,7 +7,7 @@ import librosa
 import numpy as np
 
 
-asr.load_model(param.MODEL_PATH)
+asr.load_model(param.MODEL_NAME)
 
 
 def transcribe(audio):
