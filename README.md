@@ -9,7 +9,7 @@ Thai
 
 1. Clone this repository to your local machine:
 ```
-git clone https://github.com/your-username/ASR.git](https://github.com/DylanonWicchiramala/ASR-application
+git clone https://github.com/DylanonWicchiramala/ASR-application
 ```
 2. Run the application:
 ```
