@@ -27,7 +27,6 @@ def transcribe(audio):
     
     return ''
 
-
 gr.Interface(
     fn=transcribe, 
     inputs=[
@@ -36,4 +35,5 @@ gr.Interface(
     outputs=[
         "textbox"
     ],
+    title='ASR application',
     live=False).launch(share=True)
